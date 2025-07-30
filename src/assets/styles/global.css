@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+  cursor: default;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+button, a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0px solid transparent;
+}
