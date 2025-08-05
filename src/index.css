@@ -2,8 +2,8 @@
   font-family: 'SourceSans3', sans-serif;
   line-height: 1.5;
 
-  color: rgba(255, 255, 255);
-  background-color: #131517;
+  color: var(--text-color);
+  background-color: var(--bg-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

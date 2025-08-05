@@ -1,10 +1,15 @@
 .header__container {
   width: 100vw;
   height: 120px;
-  background-color: #1E1F25;
+  background-color: var(--bg-color2);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
   padding: 32px 165px;
+}
+
+.container__logo {
+  display: flex;
+  gap: 40px;
 }

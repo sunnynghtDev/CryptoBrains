@@ -1,0 +1,5 @@
+.navigation__container {
+  display: flex;
+  gap: 40px;
+  padding-inline: 40px;
+}
