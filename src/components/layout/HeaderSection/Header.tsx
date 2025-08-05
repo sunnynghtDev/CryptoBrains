@@ -1,3 +1,4 @@
+import Auth from "../../common/AuthComponent/Auth"
 import Logo from "../../common/LogoComponent/Logo"
 import Navigation from "../../common/NavigationComponent/Navigation"
 import VerticalLine from "../../common/VerticalLineComponent/VerticalLine"
@@ -11,10 +12,7 @@ const Header = () => {
         <VerticalLine/>
       </section>
       <Navigation data={[]}/>
-      <section className={styles.container__logo}>
-        <Logo />
-        <VerticalLine/>
-      </section>
+      <Auth/>
     </header>
     
   )

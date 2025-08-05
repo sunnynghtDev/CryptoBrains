@@ -1,6 +1,10 @@
 :root {
   --bg-color: #131517;
   --bg-color2: #1E1F25;
+
   --text-color: white;
   --text-color2: #ADB3BF;
+
+  --button-primary: #1B70F1;
+  --button-secondary: transparent;
 }
