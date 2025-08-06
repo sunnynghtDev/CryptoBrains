@@ -6,13 +6,15 @@ import styles from './Header.module.css'
 
 const Header = () => {
   return (
-    <header className={styles.header__container}>
-      <section className={styles.container__logo}>
+    <header className={styles.header}>
+      <section className={styles.header__container}>
+        <div className={styles.container__logo}>
         <Logo />
         <VerticalLine/>
+        </div>
+        <Navigation data={[]}/>
+        <Auth/>
       </section>
-      <Navigation data={[]}/>
-      <Auth/>
     </header>
     
   )
